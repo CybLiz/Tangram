@@ -1,50 +1,71 @@
-.parallelogram{
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.parallelogram {
     top: 0;
     left: 0;
     rotate: 0deg;
 }
 
-
-.triangle{
+.triangle {
     top: 270px;
     left: 339px;
     rotate: 0deg;
     transition: .9s;
 }
-.triangle2{
+
+.triangle2 {
     top: 378px;
     left: 227px;
     rotate: 90deg;
     transition: .9s;
 }
-.triangle3{
+
+.triangle3 {
     top: 278px;
     left: 279px;
     rotate: 45deg;
     transition: .9s;
 }
 
-.triangle4{
+.triangle4 {
     top: 380px;
     left: 179px;
     rotate: 270deg;
     transition: .9s;
+
+    animation: animate 3s linear infinite;
+    filter: drop-shadow(0 0 50px rgb(245, 186, 22),
+            0 0 50px rgb(250, 78, 10));
 }
-.triangle5{
+
+.triangle5 {
     top: 330px;
     left: 129px;
     rotate: -360deg;
     transition: .9s;
+
+    animation: animate 3s linear infinite;
+    filter: drop-shadow(0 0 50px rgb(7, 144, 236),
+            0 0 50px rgb(6, 238, 103));
 }
 
-.carre{
+.carre {
     top: 236px;
     left: 354px;
     rotate: 45deg;
     transition: .9s;
-    
+
 }
-.parallelogram{
+
+.parallelogram {
     top: 367px;
     left: 189px;
     rotate: 0deg;
