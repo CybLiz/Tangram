@@ -1,3 +1,9 @@
+.parallelogram{
+    top: 0;
+    left: 0;
+    rotate: 0deg;
+}
+
 .triangle{
     top: 257px;
     left: 405px;
@@ -11,8 +17,8 @@
     transition: .9s;
 }
 .triangle3{
-    top: 236px;
-    left: 281px;
+    top: 239px;
+    left: 280px;
     rotate: 56deg;
     transition: .9s;
 }
@@ -38,16 +44,20 @@
     
 }
 .parallelogram{
-	transform: skew(18deg, 26deg);
-	margin-bottom: 37px;
-	margin-top: 201px;
-	margin-right: 26px;
-	margin-left: 277px;
-	width: 63px;
-	height: 98px;
-
-    top: 121px;
-    left: 19px;
-    rotate: -15deg;
+    top: 349px;
+    left: 257px;
+    rotate: 47deg;
+    width: 157px;
+    height: 32px;
+    transform: skew(-5deg);
     transition: .9s;
+}
+
+
+
+.tangram {
+    height: 50px;
+    margin-left: 14px;
+    margin-top: -11px;
+    position: relative;
 }

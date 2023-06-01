@@ -1,63 +1,8 @@
-.triangle,
-.triangle2,
-.triangle3,
-.triangle4,
-.triangle5,
-.carre,
 .parallelogram{
-    position: absolute;
+    top: 0;
+    left: 0;
+    rotate: 0deg;
 }
-
-/*************************************************************************/
-
-.carre {
-    rotate: 45deg;
-    left: 307px;
-    top: 272px;
-}
-
-.triangle {
-    rotate: 180deg;
-    left: 344px;
-    top: 206px;
-}
-
-.triangle2 {
-    rotate: -90deg;
-    top: 285px;
-    left: 264px;
-}
-
-.triangle3 {
-    rotate: 45deg;
-    top: 313px;
-    left: 334px;
-}
-
-.triangle4 {
-    rotate: 90deg;
-    left: 240px;
-    top: 155px;
-}
-
-
-.triangle5 {
-    top: 207px;
-    left: 186px;
-}
-
-
-.parallelogram {
-    rotate: 360deg;
-    top: 363px;
-    left: 173px;
-    clip-path: polygon(35% 0%, 95% 0%, 69% 100%, 9% 100%);
-    width: 173px;
-    height: 44px;
-}
-
-/*************************************************************************/
-
 
 
 .triangle{
@@ -100,15 +45,18 @@
     
 }
 .parallelogram{
-    transform: skew(18deg, 41deg);
-    margin-bottom: 37px;
-    margin-top: 203px;
-    margin-right: 26px;
-    margin-left: 277px;
-    width: 63px;
-    height: 114px;
-    top: 126px;
-    left: -37px;
-    rotate: 101deg;
+    top: 367px;
+    left: 189px;
+    rotate: 0deg;
+    width: 163px;
+    height: 39px;
+    transform: skew(-7deg);
     transition: .9s;
+}
+
+.tangram {
+    height: 50px;
+    margin-left: 14px;
+    margin-top: -61px;
+    position: relative;
 }

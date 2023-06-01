@@ -1,45 +1,53 @@
 .carre {
-    rotate: 45deg;
-    left: 307px;
-    top: 272px;
+    rotate: 90deg;
+    left: 118px;
+    top: 207px;
+    transition: all 2s;
 }
 
 .triangle {
-    rotate: 180deg;
-    left: 344px;
-    top: 206px;
+    rotate: 90deg;
+    left: 36px;
+    top: 182px;
+    transition: all 2s;
 }
 
 .triangle2 {
-    rotate: -90deg;
-    top: 285px;
-    left: 264px;
+    rotate: 45deg;
+    top: 210px;
+    left: 72px;
+    transition: all 2s;
 }
 
 .triangle3 {
-    rotate: 45deg;
-    top: 313px;
-    left: 334px;
+    rotate: 135deg;
+    top: 210px;
+    left: 181px;
+    transition: all 2s;
 }
 
 .triangle4 {
     rotate: 90deg;
     left: 240px;
-    top: 155px;
+    top: 258px;
+    transition: all 2s;
 }
 
 
 .triangle5 {
-    top: 207px;
-    left: 186px;
+    top: 155px;
+    left: 342px;
+    rotate: 270deg;
+    transition: all 2s;
 }
 
 
 .parallelogram {
     rotate: 360deg;
-    top: 363px;
-    left: 173px;
-    clip-path: polygon(35% 0%, 95% 0%, 69% 100%, 9% 100%);
-    width: 173px;
+    top: 308px;
+    left: 212px;
+    clip-path: polygon(39% 0%, 55% 0%, 66% 100%, 50% 100%);
+    width: 510px;
     height: 44px;
+    transition: all 2s;
 }
