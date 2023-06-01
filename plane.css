@@ -1,5 +1,12 @@
 /* My plane */
 
+.tangram {
+    height: 50px;
+    margin-left: 100px;
+	margin-top: 30px;
+    position: relative;
+}
+
 .triangle {
 	transform:translate(331px, 224px)rotate(237deg);
 	transition: all 3s;

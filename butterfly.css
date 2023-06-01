@@ -6,7 +6,12 @@
 	transition:all 2s;
 } */
 
-
+.tangram {
+    height: 50px;
+    margin-left: 30px;
+	margin-top: 30px;
+    position: relative;
+}
 .triangle {
 	transform: translate(210px, 211px) rotate(142deg);
 	transition: all 3s;
@@ -30,12 +35,30 @@
 
 .triangle4 {
 	transform: translate(130px, 139px) rotate(-38deg);
-	transition: all 3s;
+	transition: all 2s;
+	
+	animation: animate 1s linear infinite;
+    filter: drop-shadow(
+        
+        0 0 50px red,
+        0 0 50px pink);
 }
 
 .triangle5 {
 	transform: translate(259px, 66px) rotate(161deg);
-	transition: all 3s;
+	transition: all 2s;
+
+	animation: animate 1s linear infinite;
+    filter: drop-shadow(
+        
+        0 0 50px red,
+        0 0 50px pink);
+
+}
+@keyframes animate{
+    0% { filter: hue-rotate(0deg);}
+
+    100% { filter: hue-rotate(360deg);}
 
 }
 .parallelogram {
