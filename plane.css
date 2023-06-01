@@ -7,45 +7,62 @@
     position: relative;
 } */
 
+
+@keyframes animate{
+    0% { filter: hue-rotate(0deg);}
+
+    100% { filter: hue-rotate(360deg);}
+
+}
 .triangle {
-	transform:translate(331px, 224px)rotate(237deg);
+	transform:translate(-101px, -52px)rotate(58deg);
 	transition: all 3s;
 }
 
 .triangle2 {
-	transform: translate(87px, 212px) rotate(-78deg);
+	transform: translate(30px, -75px) rotate(13deg)	;
 	transition: all 3s;
 }
 
 .carre {
-	transform: translate(262px, 244px)rotate(102deg);
+	transform: translate(51px, -43px)rotate(58deg);
 	transition: all 3s;
 }
 
 .triangle3 {
-	transform: translate(358px, 164px) rotate(57deg);
+	transform: translate(16px, -181px) rotate(12deg);
+	animation: animate 3s linear infinite;
+    filter: drop-shadow(
+        
+        0 0 50px red,
+        0 0 50px pink);
 	transition: all 3s;
 }
 
 .triangle4 {
 
-	transform: translate(183px, 122px) rotate(57deg);
+	transform: translate(8px, -50px) rotate(327deg);
 	transition: all 3s;
 }
 
 .triangle5 {
-	transform: translate(168px, 195px) rotate(-33deg);
+	transform: translate(88px, 32px) rotate(-33deg);
 	transition: all 3s;
 }
 
 .parallelogram {
 
-	transform: skew(78deg, -33deg);
-    margin-top: 237px;
+	transform: skew(84deg, -31deg);
+    margin-top: -91px;
     margin-bottom: 72px;
-    margin-left: 13px;
+    margin-left: -114px;
     margin-right: 5px;
-    width: 57px;
+    width: 99px;
     height: 18px;
+	animation: animate 3s linear infinite;
+    filter: drop-shadow(
+        
+        0 0 50px red,
+        0 0 50px pink);
 	transition: all 3s;
 }
