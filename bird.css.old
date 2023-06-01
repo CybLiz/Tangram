@@ -1,25 +1,25 @@
 .triangle {
-    transform: translate(212px, 127px) rotate(180deg);
+    transform: translate(212px, 127px) rotate(360deg);
     transition: all 2s;
 }
 
 .triangle2 {
-    transform: translate(151px, 335px) rotate(135deg);
+    transform: translate(-138px, 30px) rotate(225deg);
     transition: all 2s;
 }
 
 .triangle3 {
-    transform: translate(17px, 197px) rotate(270deg);
+    transform: translate(-143px, 103px) rotate(225deg);
     transition: all 2s;
 }
 
 .triangle4 {
-    transform: translate(55px, 130px) rotate(180deg);
+    transform: translate(62px, 41px) rotate(90deg);
     transition: all 2s;
 }
 
 .triangle5 {
-    transform: translate(160px, 130px);
+    transform: translate(117px, 11px);
     transition: all 2s;
 }
 
