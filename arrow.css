@@ -1,3 +1,10 @@
+.parallelogram{
+    top: 0;
+    left: 0;
+    rotate: 0deg;
+}
+
+
 .triangle{
     top: 270px;
     left: 339px;
@@ -38,12 +45,12 @@
     
 }
 .parallelogram{
-    top: 371px;
-    left: 223px;
+    top: 367px;
+    left: 189px;
     rotate: 0deg;
-    width: 100px;
-    height: 34px;
-    transform: skew(-47deg);
+    width: 163px;
+    height: 39px;
+    transform: skew(-7deg);
     transition: .9s;
 }
 
