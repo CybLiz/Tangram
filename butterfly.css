@@ -8,36 +8,36 @@
 
 .tangram {
     height: 50px;
-    margin-left: 30px;
-	margin-top: 30px;
+    margin-left: 40px;
+	margin-bottom: 70px;
     position: relative;
 }
 .triangle {
-	transform: translate(210px, 211px) rotate(142deg);
+	transform: translate(146px, -191px) rotate(413deg);
 	transition: all 3s;
 }
 
 .triangle2 {
-	transform: translate(197px, 323px) rotate(232deg);
+	transform: translate(2px, -50px) rotate(234deg);
 	transition: all 3s;
 }
 
 .carre {
-	transform: translate(211px, 284px) rotate(97deg);
+	transform: translate(-6px, 127px) rotate(143deg);
 	transition: all 3s;
 }
 
 .triangle3 {
-	transform: translate(341px, 212px) rotate(117deg);
+	transform: translate(-21px, -21px) rotate(75deg);
 	transition: all 3s;
 
 }
 
 .triangle4 {
-	transform: translate(130px, 139px) rotate(-38deg);
+	transform: translate(67px, 109px) rotate(-127deg);
 	transition: all 2s;
 	
-	animation: animate 1s linear infinite;
+	animation: animate 3s linear infinite;
     filter: drop-shadow(
         
         0 0 50px red,
@@ -45,10 +45,10 @@
 }
 
 .triangle5 {
-	transform: translate(259px, 66px) rotate(161deg);
+	transform: translate(98px, -59px) rotate(163deg);
 	transition: all 2s;
 
-	animation: animate 1s linear infinite;
+	animation: animate 3s linear infinite;
     filter: drop-shadow(
         
         0 0 50px red,
@@ -62,12 +62,9 @@
 
 }
 .parallelogram {
-	transform: skew(18deg, 26deg);
-	margin-bottom: 37px;
-	margin-top: 201px;
-	margin-right: 26px;
-	margin-left: 277px;
-	width: 63px;
-	height: 98px;
+    transform: skew(24deg, 27deg);
+    margin: -98px 17px 64px 87px;
+    width: 89px;
+    height: 111px;
 	transition: all 3s;
 }
