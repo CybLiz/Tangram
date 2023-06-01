@@ -11,8 +11,8 @@
     transition: .9s;
 }
 .triangle3{
-    top: 236px;
-    left: 281px;
+    top: 239px;
+    left: 280px;
     rotate: 56deg;
     transition: .9s;
 }
@@ -38,17 +38,17 @@
     
 }
 .parallelogram{
-	transform: skew(18deg, 26deg);
-	margin-bottom: 37px;
-	margin-top: 201px;
-	margin-right: 26px;
-	margin-left: 277px;
-	width: 63px;
-	height: 98px;
-
-    top: 121px;
-    left: 19px;
-    rotate: -15deg;
+/*transform: skew(18deg, 28deg);
+    margin-bottom: 37px;
+    margin-top: 163px;
+    margin-right: 26px;
+    margin-left: 375px;*/
+    width: 47px;
+    height: 96px;
+    top: 175px;
+    left: 0px;
+    rotate: 106deg;
+    background-color: green;
     transition: .9s;
 }
 
