@@ -1,1 +1,45 @@
-/* JP */
+.triangle{
+    top: 157px;
+    left: 305px;
+    rotate: 147deg;
+    transition: .9s;
+}
+.triangle2{
+    top: 249px;
+    left: 20px;
+    rotate: 145deg;
+    transition: .9s;
+}
+.triangle3{
+    top: 136px;
+    left: 181px;
+    rotate: 56deg;
+    transition: .9s;
+}
+
+.triangle4{
+    top: 99px;
+    left: 0;
+    rotate: 191deg;
+    transition: .9s;
+}
+.triangle5{
+    top: 51px;
+    left: 96px;
+    rotate: -124deg;
+    transition: .9s;
+}
+
+.carre{
+    top: 144px;
+    left: 247px;
+    rotate: 12deg;
+    transition: .9s;
+    
+}
+.parallelogram{
+    top: 254px;
+    left: 149px;
+    rotate: 53deg;
+    transition: .9s;
+}
