@@ -1,13 +1,11 @@
-
 body {
-    
     display: flex;
     flex-direction: column;
 }
 
 .container {
     /* display: flex; */
-    margin-top:100px;
+    margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 200px;
 
@@ -83,34 +81,11 @@ body {
     height: 70px;
 }
 
-/* .parallelogram{
-
-    width  : 100px;
-    height : 0;
-    border-top  : 50px solid green;
-    border-left : 20px solid transparent;
-    position : relative;
-}
-
-
-.parallelogram:after {
-    width  : 0;
-    height : 0;
-    content: '';
-    border-bottom : 50px solid green;
-    border-right  : 20px solid transparent;
-    border-left   : 20px solid transparent;
-    position : absolute;
-    top  : -50px;
-    right: -20px;
-} */
-
 .parallelogram {
+    background: #42e900;
     position: absolute;
-    width: 60px;
-    height: 35px;
-    background: green;
 }
+
 .buttons {
     /* float: left; */
     margin-top: 60px;
