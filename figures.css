@@ -13,7 +13,7 @@ body {
 
 .tangram {
     height: 50px;
-    /* margin-left: 80px; */
+    margin-left: 80px;
     position: relative;
 }
 
@@ -85,7 +85,7 @@ body {
 .buttons {
     /* float: left; */
     margin-top: 60px;
-    margin-left: 550px;
+    margin-left: 140px;
     width: 140px;
     display: flex;
     position: absolute;
