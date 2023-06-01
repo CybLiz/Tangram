@@ -1,3 +1,10 @@
+@keyframes animate{
+    0% { filter: hue-rotate(0deg);}
+
+    100% { filter: hue-rotate(360deg);}
+
+}
+
 .container{
     background-image: url(greensmoke.jpg);
 }
@@ -16,6 +23,9 @@
     top: 348%;
     border-left: 50px solid #d2696a;
     transition: all 2s;
+    animation: animate 2s linear infinite;
+    filter: drop-shadow(0 0 50px #339966,
+            0 0 50px #1a1aff);
 }
 
 .triangle2{
@@ -24,6 +34,9 @@
     top: 450%;
     border-left: 50px solid darkviolet;
     transition: all 2s;
+    animation: animate 2s linear infinite;
+    filter: drop-shadow(0 0 50px #1a1aff,
+            0 0 50px #339966);
 }
 
 
