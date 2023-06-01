@@ -107,8 +107,6 @@ body {
 
 .parallelogram {
     position: absolute;
-    width: 60px;
-    height: 35px;
     background: green;
 }
 .buttons {
