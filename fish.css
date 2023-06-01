@@ -1,1 +1,48 @@
-/* Sebastien */
+.triangle {
+    rotate: 135deg;
+    left: 269px;
+    top: 188px;
+    transition: all 2s;
+}
+
+.triangle2 {
+    rotate: 225deg;
+    top: 301px;
+    left: 268px;
+    transition: all 2s;
+}
+
+.triangle3 {
+    rotate: 180deg;
+    top: 259px;
+    left: 352px;
+    transition: all 2s;
+}
+
+.triangle4 {
+    left: 186px;
+    top: 230px;
+    rotate: 315deg;
+    transition: all 2s;
+}
+
+.triangle5 {
+    top: 155px;
+    left: 186px;
+    rotate: 45deg;
+    transition: all 2s;
+}
+
+.carre {
+    left: 276px;
+    top: 260px;
+    rotate: 0deg;
+    transition: all 2s;
+}
+
+.parallelogram {
+    rotate: 135deg;
+    top: 235px;
+    left: 302px;
+    transition: all 2s;
+}
