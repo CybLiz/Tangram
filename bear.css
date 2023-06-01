@@ -38,13 +38,14 @@
     
 }
 .parallelogram{
-    top: 371px;
-    left: 188px;
-    rotate: 0deg;
+    top: 349px;
+    left: 257px;
+    rotate: 47deg;
     width: 157px;
-    height: 34px;
+    height: 32px;
     transform: skew(-5deg);
     transition: .9s;
+}
 }
 
 
