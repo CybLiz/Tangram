@@ -1,0 +1,42 @@
+/* My plane */
+
+.triangle {
+	transform:translate(331px, 224px)rotate(237deg);
+	transition: all 2s;
+}
+
+.triangle2 {
+	transform: translate(87px, 212px) rotate(-78deg);
+	transition: all 2s;
+}
+
+.carre {
+	transform: translate(262px, 244px)rotate(102deg);
+	transition: all 2s;
+}
+
+.triangle3 {
+	transform: translate(358px, 164px) rotate(57deg);
+	transition: all 2s;
+}
+
+.triangle4 {
+
+	transform: translate(183px, 122px) rotate(57deg);
+	transition: all 2s;
+}
+
+.triangle5 {
+	transform: translate(168px, 195px) rotate(-33deg);
+	transition: all 2s;
+}
+
+.parallelogram {
+
+	transform: skew(78deg, -33deg);
+	margin-top: 221px;
+	margin-bottom: 45px;
+	margin-left: -30px;
+	margin-right: 10px;
+	transition: all 2s;
+}

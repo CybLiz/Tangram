@@ -1,0 +1,134 @@
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    /* display: flex; */
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+
+    width: 600px;
+    height: 600px;
+    background-color: #333;
+    /* float: inline-start; */
+}
+
+.tangram {
+    height: 50px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid #d2696a;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+
+
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 50px solid #7e2b7c;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+
+}
+
+.triangle3 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 70px solid #189184;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+
+
+}
+
+.triangle4 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 100px solid #FBC002;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+
+
+}
+
+.triangle5 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 100px solid #b20000;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+
+}
+
+.carre {
+    position: absolute;
+    background-color: #F48400;
+    width: 70px;
+    height: 70px;
+}
+
+/* .parallelogram{
+
+    width  : 100px;
+    height : 0;
+    border-top  : 50px solid green;
+    border-left : 20px solid transparent;
+    position : relative;
+}
+
+
+.parallelogram:after {
+    width  : 0;
+    height : 0;
+    content: '';
+    border-bottom : 50px solid green;
+    border-right  : 20px solid transparent;
+    border-left   : 20px solid transparent;
+    position : absolute;
+    top  : -50px;
+    right: -20px;
+} */
+
+.parallelogram {
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    background: green;
+}
+.buttons {
+    /* float: left; */
+    margin-top: 60px;
+    margin-left: 315px;
+    width: 140px;
+    display: flex;
+    position: absolute;
+
+}
+
+button {
+    background-color: gray;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 140px;
+    text-align: left;
+    margin-bottom: 4px;
+    cursor: pointer;
+}

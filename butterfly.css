@@ -1,0 +1,62 @@
+/* my figure */
+
+/* .triangle{
+	transform:translate(88px, 164px) rotate(112deg);
+
+	transition:all 2s;
+} */
+
+
+.triangle {
+	transform: translate(210px, 211px) rotate(142deg);
+	transition: all 3s;
+}
+
+.triangle2 {
+	transform: translate(197px, 323px) rotate(232deg);
+	transition: all 3s;
+}
+
+.carre {
+	transform: translate(211px, 284px) rotate(97deg);
+	transition: all 3s;
+}
+
+.triangle3 {
+	transform: translate(329px, 188px) rotate(115deg);
+	transition: all 3s;
+
+}
+
+.triangle4 {
+    transform: translate(130px, 139px) rotate(-38deg);
+	transition: all 3s;
+
+}
+
+.triangle5 {
+	transform: translate(265px, 45px) rotate(166deg);
+	transition: all 3s;
+
+}
+
+/* .parallelogram {
+
+	transform: skew(14deg, 31deg);
+	margin-bottom: 19px;
+	margin-top: 125px;
+	margin-right: 26px;
+	margin-left: 163px;
+	transition: all 3s;  */
+
+
+.parallelogram {
+		clip-path: polygon(25% 0%, 71% 16%, 100% 100%, 48% 83%);
+		width: 161px;
+		height: 45px;
+		background: #42e900;
+		position: absolute;
+		transform: translate(0px, 0px) rotate(-1deg);
+		transition: all 2s;
+
+}
