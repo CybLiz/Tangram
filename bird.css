@@ -5,6 +5,16 @@
     position: relative;
 } */
 
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 .triangle {
     transform: translate(-9px, -8px) rotate(360deg);
     transition: all 2s;
@@ -18,6 +28,10 @@
 .triangle3 {
     transform: translate(-142px, 101px) rotate(225deg);
     transition: all 2s;
+
+    animation: animate 3s linear infinite;
+    filter: drop-shadow(0 0 50px rgb(22, 245, 59),
+            0 0 50px rgb(250, 10, 250));
 }
 
 .triangle4 {
