@@ -1,0 +1,59 @@
+.container{
+    background-image: url(greensmoke.jpg);
+}
+
+.carre{
+    left: 41%;
+    background-color: orangered;
+    transition: all 2s;
+}
+
+.triangle{
+    rotate: -90deg;
+    left: 77%;
+    top: 224%;
+    border-left: 50px solid #d2696a;
+    transition: all 2s;
+}
+
+.triangle2{
+    left: 77%;
+    rotate: 90deg;
+    top: 350%;
+    border-left: 50px solid darkviolet;
+    transition: all 2s;
+}
+
+
+.triangle3{
+    rotate: 41deg;
+    top: 710%;
+    left: 12%;
+    border-left: 70px solid crimson;
+    transition: all 2s;
+}
+
+.triangle4{
+    left: 22%;
+    rotate: 400deg;
+    top: 242%;
+    border-left: 100px solid mediumblue;
+    transition: all 2s;
+}
+
+
+.triangle5{
+    top: 420%;
+    rotate: 221deg;
+    left: 22%;
+    border-left: 100px solid #b20000;
+    transition: all 2s;
+}
+
+.parallelogram{
+    rotate: 175deg;
+    left: 48%;
+    top: 556%;
+    background-color: whitesmoke;
+    transition: all 2s;
+}
