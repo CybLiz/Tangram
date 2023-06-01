@@ -1,3 +1,13 @@
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 .carre {
     rotate: 90deg;
     left: 118px;
@@ -10,6 +20,10 @@
     left: 36px;
     top: 182px;
     transition: all 2s;
+
+    animation: animate 3s linear infinite;
+    filter: drop-shadow(0 0 50px rgb(230, 245, 22),
+            0 0 50px rgb(10, 202, 250));
 }
 
 .triangle2 {
@@ -33,14 +47,12 @@
     transition: all 2s;
 }
 
-
 .triangle5 {
     top: 155px;
     left: 342px;
     rotate: 270deg;
     transition: all 2s;
 }
-
 
 .parallelogram {
     rotate: 360deg;
@@ -50,4 +62,8 @@
     width: 510px;
     height: 44px;
     transition: all 2s;
+
+    animation: animate 3s linear infinite;
+    filter: drop-shadow(0 0 50px rgb(22, 245, 59),
+            0 0 50px rgb(250, 10, 250));
 }
