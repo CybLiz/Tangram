@@ -1,43 +1,37 @@
-.tangram {
-    margin-left: 15px;
-	margin-top: 0px;
-    position: relative;
-}
-
 .carre {
     rotate: 45deg;
-    left: 307px;
-    top: 272px;
+    left: 350px;
+    top: 50px;
 }
 
 .triangle {
     rotate: 180deg;
-    left: 344px;
-    top: 206px;
+    left: 90px;
+    top: 26px;
 }
 
 .triangle2 {
     rotate: -90deg;
-    top: 285px;
-    left: 264px;
+    top: 280px;
+    left: 154px;
 }
 
 .triangle3 {
     rotate: 45deg;
-    top: 313px;
-    left: 334px;
+    top: 3px;
+    left: 33px;
 }
 
 .triangle4 {
     rotate: 90deg;
-    left: 240px;
+    left: 40px;
     top: 155px;
 }
 
 
 .triangle5 {
-    top: 207px;
-    left: 186px;
+    top: 295px;
+    left: 300px;
 }
 
 
