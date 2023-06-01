@@ -2,30 +2,35 @@
     rotate: 90deg;
     left: 118px;
     top: 207px;
+    transition: all 2s;
 }
 
 .triangle {
     rotate: 90deg;
     left: 36px;
     top: 182px;
+    transition: all 2s;
 }
 
 .triangle2 {
     rotate: 45deg;
     top: 210px;
     left: 72px;
+    transition: all 2s;
 }
 
 .triangle3 {
     rotate: 135deg;
     top: 210px;
     left: 181px;
+    transition: all 2s;
 }
 
 .triangle4 {
     rotate: 90deg;
     left: 240px;
     top: 258px;
+    transition: all 2s;
 }
 
 
@@ -33,6 +38,7 @@
     top: 155px;
     left: 342px;
     rotate: 270deg;
+    transition: all 2s;
 }
 
 
@@ -43,4 +49,5 @@
     clip-path: polygon(39% 0%, 55% 0%, 66% 100%, 50% 100%);
     width: 510px;
     height: 44px;
+    transition: all 2s;
 }
