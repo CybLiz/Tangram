@@ -39,11 +39,11 @@
 }
 .parallelogram{
     top: 371px;
-    left: 223px;
+    left: 188px;
     rotate: 0deg;
-    width: 100px;
+    width: 157px;
     height: 34px;
-    transform: skew(-47deg);
+    transform: skew(-5deg);
     transition: .9s;
 }
 
