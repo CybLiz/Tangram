@@ -3,23 +3,25 @@
 }
 
 .carre{
-    left: 41%;
+    left: 38%;
+    top: 175%;
+    rotate: 90deg;
     background-color: orangered;
     transition: all 2s;
 }
 
 .triangle{
     rotate: -90deg;
-    left: 77%;
-    top: 224%;
+    left: 63%;
+    top: 348%;
     border-left: 50px solid #d2696a;
     transition: all 2s;
 }
 
 .triangle2{
-    left: 77%;
+    left: 63%;
     rotate: 90deg;
-    top: 350%;
+    top: 450%;
     border-left: 50px solid darkviolet;
     transition: all 2s;
 }
@@ -51,9 +53,9 @@
 }
 
 .parallelogram{
-    rotate: 175deg;
-    left: 48%;
-    top: 556%;
+    rotate: 178deg;
+    left: 41%;
+    top: 605%;
     background-color: whitesmoke;
     transition: all 2s;
 }
