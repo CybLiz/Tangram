@@ -29,6 +29,9 @@
 }
 
 .parallelogram {
+    clip-path: polygon(35% 0%, 95% 0%, 69% 100%, 9% 100%);
     transform: translate(172px, 58px) rotate(44deg);
     transition: all 2s;
+    width: 100px;
+    height: 50px;
 }
