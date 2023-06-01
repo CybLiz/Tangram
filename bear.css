@@ -11,8 +11,8 @@
     transition: .9s;
 }
 .triangle3{
-    top: 236px;
-    left: 281px;
+    top: 239px;
+    left: 280px;
     rotate: 56deg;
     transition: .9s;
 }
@@ -38,17 +38,12 @@
     
 }
 .parallelogram{
-	transform: skew(18deg, 26deg);
-	margin-bottom: 37px;
-	margin-top: 201px;
-	margin-right: 26px;
-	margin-left: 277px;
-	width: 63px;
-	height: 98px;
-
-    top: 121px;
-    left: 19px;
-    rotate: -15deg;
+    top: 371px;
+    left: 223px;
+    rotate: 0deg;
+    width: 100px;
+    height: 34px;
+    transform: skew(-47deg);
     transition: .9s;
 }
 
