@@ -84,6 +84,7 @@ body {
 .parallelogram {
     background: #42e900;
     position: absolute;
+    background: green;
 }
 
 .buttons {

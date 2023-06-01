@@ -1,3 +1,45 @@
-/* Sana */
+.carre {
+    rotate: 45deg;
+    left: 307px;
+    top: 272px;
+}
 
-transform
+.triangle {
+    rotate: 180deg;
+    left: 344px;
+    top: 206px;
+}
+
+.triangle2 {
+    rotate: -90deg;
+    top: 285px;
+    left: 264px;
+}
+
+.triangle3 {
+    rotate: 45deg;
+    top: 313px;
+    left: 334px;
+}
+
+.triangle4 {
+    rotate: 90deg;
+    left: 240px;
+    top: 155px;
+}
+
+
+.triangle5 {
+    top: 207px;
+    left: 186px;
+}
+
+
+.parallelogram {
+    rotate: 360deg;
+    top: 363px;
+    left: 173px;
+    clip-path: polygon(35% 0%, 95% 0%, 69% 100%, 9% 100%);
+    width: 173px;
+    height: 44px;
+}
