@@ -51,3 +51,11 @@
     rotate: -15deg;
     transition: .9s;
 }
+
+
+.tangram {
+    height: 50px;
+    margin-left: 14px;
+    margin-top: -11px;
+    position: relative;
+}
