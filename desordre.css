@@ -1,0 +1,44 @@
+.carre {
+    rotate: 24deg;
+    left: 350px;
+    top: 110px;
+}
+
+.triangle {
+    rotate: 226deg;
+    left: 90px;
+    top: 26px;
+}
+
+.triangle2 {
+    rotate: 70deg;
+    top: 425px;
+    left: 266px;
+}
+
+.triangle3 {
+    rotate: 64deg;
+    top: 205px;
+    left: 400px;
+}
+
+.triangle4 {
+    rotate: 108deg;
+    left: 95px;
+    top: 314px;
+}
+
+.triangle5 {
+top: 335px;
+left: 415px;
+rotate: 336deg;
+}
+
+.parallelogram {
+    rotate: 42deg;
+    top: 200px;
+    left: 105px;
+    clip-path: polygon(35% 0%, 95% 0%, 69% 100%, 9% 100%);
+    width: 173px;
+    height: 44px;
+}
