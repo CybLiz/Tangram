@@ -38,17 +38,12 @@
     
 }
 .parallelogram{
-/*transform: skew(18deg, 28deg);
-    margin-bottom: 37px;
-    margin-top: 163px;
-    margin-right: 26px;
-    margin-left: 375px;*/
-    width: 47px;
-    height: 96px;
-    top: 175px;
-    left: 0px;
-    rotate: 106deg;
-    background-color: green;
+    top: 371px;
+    left: 223px;
+    rotate: 0deg;
+    width: 100px;
+    height: 34px;
+    transform: skew(-47deg);
     transition: .9s;
 }
 
