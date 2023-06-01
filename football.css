@@ -26,26 +26,26 @@
 
 
 .triangle3{
-    rotate: 41deg;
+    rotate: 43deg;
     top: 710%;
-    left: 12%;
+    left: 15%;
     border-left: 70px solid crimson;
     transition: all 2s;
 }
 
 .triangle4{
-    left: 22%;
-    rotate: 400deg;
-    top: 242%;
+    left: 24%;
+    rotate: 403deg;
+    top: 337%;
     border-left: 100px solid mediumblue;
     transition: all 2s;
 }
 
 
 .triangle5{
-    top: 420%;
-    rotate: 221deg;
-    left: 22%;
+    top: 484%;
+    rotate: 223deg;
+    left: 23%;
     border-left: 100px solid #b20000;
     transition: all 2s;
 }
