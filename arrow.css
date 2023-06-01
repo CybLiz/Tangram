@@ -1,1 +1,67 @@
-/* JP */
+.triangle,
+.triangle2,
+.triangle3,
+.triangle4,
+.triangle5,
+.carre,
+.parallelogram{
+    position: absolute;
+}
+
+
+
+
+
+.triangle{
+    top: 263px;
+    left: 324px;
+    rotate: 0deg;
+    transition: .9s;
+}
+.triangle2{
+    top: 378px;
+    left: 227px;
+    rotate: 90deg;
+    transition: .9s;
+}
+.triangle3{
+    top: 271px;
+    left: 263px;
+    rotate: 45deg;
+    transition: .9s;
+}
+
+.triangle4{
+    top: 380px;
+    left: 179px;
+    rotate: 270deg;
+    transition: .9s;
+}
+.triangle5{
+    top: 330px;
+    left: 129px;
+    rotate: -360deg;
+    transition: .9s;
+}
+
+.carre{
+    top: 228px;
+    left: 339px;
+    rotate: 45deg;
+    transition: .9s;
+    
+}
+.parallelogram{
+    clip-path: polygon(38% 0%, 98% 0%, 68% 100%, 8% 100%);
+    width: 161px;
+    height: 45px;
+    background: #42e900;
+    position: absolute;
+    transform: translate(0px, 0px) rotate(-1deg);
+    transform: skew(20deg, 20deg);
+
+    top: 362px;
+    left: 187px;
+    rotate: 160deg;
+    transition: .9s;
+}
