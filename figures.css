@@ -1,20 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #30A2FF;
 }
 
 .container {
-    margin: auto;
+    margin-left: 530px;
     margin-top: 150px;
     width: 600px;
     height: 600px;
-    background-color: #333;
-    position: relative;
+   
+    position: absolute;
 }
 
+ .img {
+ margin-left: 630px;
+ margin-top: 50px;
+} 
+
 .tangram {
-    height: 50px;
-    /* position: relative; */
+    /* height: 100px; */
+    position: relative;
 }
 
 .triangle {
@@ -87,7 +93,9 @@ body {
     margin-left: 140px;
     width: 140px;
     display: flex;
+    align-items: center;
     position: absolute;
+
 
 }
 
