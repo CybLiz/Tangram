@@ -9,14 +9,14 @@ body {
     margin-top: 150px;
     width: 600px;
     height: 600px;
-   
+
     position: absolute;
 }
 
- .img {
- margin-left: 630px;
- margin-top: 50px;
-} 
+.img {
+    margin-left: 630px;
+    margin-top: 50px;
+}
 
 .tangram {
     /* height: 100px; */
@@ -88,25 +88,29 @@ body {
 }
 
 .buttons {
-    /* float: left; */
+    width: 20px;
     margin-top: 60px;
-    margin-left: 140px;
-    width: 140px;
+    margin-left: 616px;
+    width: 421px;
     display: flex;
     align-items: center;
     position: absolute;
-
-
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    column-gap: 10px;
 }
 
 button {
-    background-color: gray;
+    background-color: #30A2FF;
     border: none;
     color: #fff;
     font-size: 14px;
     padding: 10px 15px;
-    width: 140px;
+    width: 80px;
     text-align: left;
     margin-bottom: 4px;
     cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
 }
